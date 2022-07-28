@@ -49,10 +49,10 @@ if __name__ == '__main__':
     seq_len = 100
     hidden_size = 30
 
-    # roi = 'forehead'
+    roi = 'forehead'
     # roi = 'ueye'
     # roi = 'cheek'
-    roi = 'unose'
+    # roi = 'unose'
 
     save_dir = "vitalsign_0408_predict_spo2_lstm_l2_dropno_dataset2_{}_seq{}_hidden{}_2".format(roi, seq_len, hidden_size)
     # save_dir = "vitalsign_0408_predict_spo2_lstm_l2_dropno_dataset2_{}_seq{}_hidden{}".format(roi, seq_len, hidden_size)

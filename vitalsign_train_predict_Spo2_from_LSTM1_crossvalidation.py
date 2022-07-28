@@ -53,10 +53,10 @@ if __name__ == '__main__':
     hidden_size = 30
 
     # ROI 설정
-    # roi = 'forehead'
+    roi = 'forehead'
     # roi = 'ueye'
     # roi = 'cheek'
-    roi = 'unose'
+    # roi = 'unose'
 
     # 멜라닌과 피부두께 확률분포를 입력으로 함께 사용하는 경우 True로 설정, Absorbance만 사용하는 경우 False로 설정
     use_mel_thick = True

@@ -52,10 +52,10 @@ if __name__ == '__main__':
     hidden_size = 30
 
     # ROI 설정
-    # roi = 'forehead'
+    roi = 'forehead'
     # roi = 'ueye'
     # roi = 'cheek'
-    roi = 'unose'
+    # roi = 'unose'
 
     # Load Model
     # save_dir = "vitalsign_0409_predict_spo2_lstm_l2_dropno_dataset1_{}_seq{}_hidden{}_nomelthick_crossvali".format(roi, seq_len,
